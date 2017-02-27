@@ -1,0 +1,37 @@
+{
+   "parser": "babel-eslint",
+   "plugins": [
+       "react"
+   ],
+   "env": {
+       "browser": true
+   },
+   "parserOptions": {
+       "ecmaVersion": 6,
+       "sourceType": "module",
+       "ecmaFeatures": {
+           "experimentalObjectRestSpread": true,
+           "jsx": true
+       }
+   },
+   "extends": ["eslint:recommended", "plugin:react/recommended"],
+   "rules": {
+       "indent": ["warn", 4],
+       "semi": [2, "never"],
+
+       "no-console": "off",
+       "no-redeclare": "warn",
+       "no-undef": "warn",
+       "no-unused-vars": ["warn", {
+           "vars": "all",
+           "args": "none"
+       }],
+       "no-var": 2,
+       "prefer-const": 2,
+       "react/jsx-boolean-value": [2, "always"],
+       "react/jsx-closing-bracket-location": [0, "tag-aligned"],
+       "react/jsx-indent-props": [1, 4],
+       "react/jsx-indent": [1, 4],
+       "react/prop-types": "off"
+   }
+}

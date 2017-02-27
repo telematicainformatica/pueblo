@@ -1,0 +1,26 @@
+{
+  "name": "pueblo",
+  "version": "1.0.0",
+  "description": "Pueblo logging library",
+  "main": "src/pueblo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telematicainformatica/pueblo.git"
+  },
+  "keywords": [
+    "pueblo",
+    "logging-library"
+  ],
+  "author": "Carmine Ruggieri, Casula Roberto, Fiori Federico",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/telematicainformatica/pueblo/issues"
+  },
+  "homepage": "https://github.com/telematicainformatica/pueblo#readme",
+  "dependencies": {
+    "is-integer": "^1.0.6"
+  }
+}
